@@ -125,7 +125,7 @@ private:
   int SetDomino(QPoint board_pos, Domino *domino);
   void SwapBoardRow(int row1, int row2);
 
-  int _domino_size{30};
+  int _domino_size{40};
   QSize _board_size{10, 20};
 
   int _advance_timer{};
