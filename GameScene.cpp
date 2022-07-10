@@ -21,7 +21,7 @@ enum {
 Domino::Domino(int size, QGraphicsItem *parent) : QGraphicsObject(parent) {
   setFlag(ItemHasNoContents);
   _rect = new QGraphicsRectItem(0, 0, size, size, this);
-  _rect->setBrush(Qt::black);
+  _rect->setBrush(Qt::blue);
   _rect->setData(COLLIDING_FLAG_ROLE, 0);
 }
 
